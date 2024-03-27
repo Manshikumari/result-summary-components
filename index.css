@@ -1,0 +1,91 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* Global Css Start*/
+
+h3
+{
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 1rem;
+}
+
+.container
+{
+   background-color: #fff;
+   padding: 200px 400px;
+}
+.row
+{
+    /* padding: 10px; */
+    box-shadow: 5px 4px 3px aliceblue;
+    background-color: rgb(255, 252, 249);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Global Css End*/
+
+/* main Start here */
+.left{
+    height: 300px;
+    padding: 30px;
+    background: linear-gradient(rgb(89, 70, 240),rgb(46, 42, 136));
+    color: white;
+    border-radius: 25px;
+    
+   
+}
+
+.circle{
+
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: #ca0c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    height: 300px;
+    width: 500px;
+    padding: 35px;
+    background-color: beige;
+    border-radius: 25px;
+}
+.right .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem;
+    background-color: rgb(167, 167, 167);
+    margin: .5rem 0;
+    border-radius: .8rem;
+}
+
+.right .box .svgbox{
+    width: 50%;
+  display: flex;
+  align-items: center;
+  
+    
+}
+
+.right .box .svgbox svg{
+  margin-right: .5rem;  
+  
+  
+  
+    
+}
+
+
+/* main end here */
