@@ -11,12 +11,62 @@ h3
    font-size: 20px;
    text-align: center;
    margin-bottom: 1rem;
+   color: white;
+}
+p{
+  color: #f5f5f5;
+ 
+
+}
+h2{
+  color: white;
+  margin-bottom: 20px;
+}
+h1{
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+h4{
+  font-size: 25px;
+  color: black;
+  margin-bottom: 25px;
+}
+h5{
+  color: black;
+}
+.reaction{
+background-color: #fff6f5;
+color:#ee6c70 ;
+}
+.memory{
+  background-color: #fcffdf;
+  color: #ffc13d;
+}
+.verbal{
+  background-color: #f2fbfa;
+  color: #2cae88;
+}
+.visual{
+  background-color: #f1f1ff;
+  color: #464fc4;
+}
+
+.btn5{
+  height: 45px;
+  width: 100%;
+  background-color: #332de9;
+  color: #fff;
+  border-radius: 100px;
+  border: 0px;
+  margin-top: 15px;
 }
 
 .container
 {
    background-color: #fff;
-   padding: 200px 400px;
+   padding: 100px 400px;
 }
 .row
 {
@@ -34,10 +84,10 @@ h3
 
 /* main Start here */
 .left{
-    height: 300px;
+    height: 380px;
     padding: 30px;
     background: linear-gradient(rgb(89, 70, 240),rgb(46, 42, 136));
-    color: white;
+
     border-radius: 25px;
     
    
@@ -46,19 +96,23 @@ h3
 .circle{
 
     border-radius: 100px;
-    height: 100px;
-    width: 100px;
-    background-color: #ca0c0c;
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(53, 41, 148),rgb(48, 38, 228));
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    padding: 15px;
+    
 }
 
 .right{
-    height: 300px;
+    height: 380px;
     width: 500px;
     padding: 35px;
-    background-color: beige;
+    background-color:#fff;
     border-radius: 25px;
 }
 .right .box{
@@ -66,7 +120,7 @@ h3
     justify-content: space-between;
     align-items: center;
     padding: .4rem;
-    background-color: rgb(167, 167, 167);
+    height: 45px;
     margin: .5rem 0;
     border-radius: .8rem;
 }
