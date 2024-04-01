@@ -141,5 +141,23 @@ color:#ee6c70 ;
     
 }
 
-
 /* main end here */
+
+/* Mobile css  start*/
+
+@media(max-width:600px)
+{   
+    .container{
+      padding: 0px;
+    }
+    .row{
+      display: block;
+    }
+    . column left {
+      border-top-left-radius: 0px;
+      bo
+    }
+
+}
+
+/* Mobile css  end*/
